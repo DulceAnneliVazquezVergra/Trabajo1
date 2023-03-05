@@ -10,7 +10,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
     
-    <title>Inicio</title>
+    <title>pedidorealizado</title>
 </head>
 <body>
     <div style="margin: 24px;">
@@ -43,10 +43,22 @@
         <li><strong>Telefono: </strong> <span id="telefono"></span></li>
         <li><strong>Direccion: </strong> <span id="direccion"></span></li>
         <li><strong>Colonia: </strong> <span id="colonia"></span></li>
+        <li><strong>menu: </strong> <span id="menu"></span></li>
         <li><strong>tomate: </strong> <span id="tomate"></span></li>
         <li><strong>cebolla: </strong> <span id="cebolla"></span></li>
         <li><strong>lechuga: </strong> <span id="lechuga"></span></li>
         <li><strong>pepinos: </strong> <span id="pepinos"></span></li>
+        <li><strong>Rabano: </strong> <span id="Rabano"></span></li>
+        <li><strong>Tocino: </strong> <span id="Tocino"></span></li>
+        <li><strong>Aguacate: </strong> <span id="Aguacate"></span></li>
+        <li><strong>Apio: </strong> <span id="Apio"></span></li>
+        <li><strong>Zanahoria: </strong> <span id="Zanahoria"></span></li>
+        <li><strong>Limon: </strong> <span id="Limon"></span></li>
+        <li><strong>Cilantro: </strong> <span id="Cilantro"></span></li>
+        <li><strong>Queso: </strong> <span id="Queso"></span></li>
+        <li><strong>Crema: </strong> <span id="Crema"></span></li>
+        <li><strong>Salsa: </strong> <span id="Salsa"></span></li>
+        <li><strong>Cuchara: </strong> <span id="Cuchara"></span></li>
     </ul>
     <script>
         const orden=JSON.parse(localStorage.getItem("orden"));
@@ -55,10 +67,24 @@
         document.getElementById("telefono").textContent=orden.telefono;
         document.getElementById("direccion").textContent=orden.direccion;
         document.getElementById("colonia").textContent=orden.colonia;
+        document.getElementById("menu").textContent=orden.menu;
         document.getElementById("tomate").textContent=orden.tomate;
         document.getElementById("cebolla").textContent=orden.cebolla;
-        document.getElementById("lechuga").textContent=orden.lechuga;
-        document.getElementById("pepinos").textContent=orden.pepinos;
+        document.getElementById("Lechuga").textContent=orden.Lechuga;
+        document.getElementById("Pepino").textContent=orden.Pepino;
+        document.getElementById("Rabano").textContent=orden.Rabano;
+        document.getElementById("Tocino").textContent=orden.Tocino;
+        document.getElementById("Aguacate").textContent=orden.Aguacate;
+        document.getElementById("Apio").textContent=orden.Apio;
+        document.getElementById("Zanahoria").textContent=orden.Zanahoria;
+        document.getElementById("Limon").textContent=orden.Limon;
+        document.getElementById("Cilantro").textContent=orden.Cilantro;
+        document.getElementById("Queso").textContent=orden.Queso;
+        document.getElementById("Crema").textContent=orden.Crema;
+        document.getElementById("Salsa").textContent=orden.Salsa;
+        document.getElementById("Cuchara").textContent=orden.Cuchara;
+        
+
     </script>
 </body>
 </html>
